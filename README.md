@@ -16,6 +16,8 @@ We initiated the data collection process by scraping the Wikipedia page for the 
 | Model         | Accuracy | TPR | FPR | AUC (if applicable)|
 | ------------- | ------------- | --- | --- | -------------------|
 | Logistic Regression | 0.8075  | 0.4976 | 0.0814 | 0.854 |
+| Ridge Regression | 0.7988  | 0.4 | 0.0582 | NA |
+| Lasso Regression | 0.7950  | 0.4126 | 0.0678 | NA |
 
 
 
