@@ -13,10 +13,10 @@ We initiated the data collection process by scraping the Wikipedia page for the 
 
 ## Model Results Summary
 
-| Model         | Accuracy      | TPR | FPR | AUC (if applicable)
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Model         | Accuracy | TPR | FPR | AUC (if applicable)|
+| ------------- | ------------- | --- | --- | -------------------|
+| Logistic Regression | 0.8075  | 0.4976 | 0.0814 | 0.854 |
+
 
 
 
