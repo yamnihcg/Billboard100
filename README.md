@@ -18,7 +18,12 @@ We initiated the data collection process by scraping the Wikipedia page for the 
 | Logistic Regression | 0.8075  | 0.4976 | 0.0814 | 0.854 |
 | Ridge Regression | 0.7988  | 0.4 | 0.0582 | NA |
 | Lasso Regression | 0.7950  | 0.4126 | 0.0678 | NA |
-
+| LDA | 0.8025 | 0.4898 | 0.0853 | 0.853 |
+| 10-CV CART | 0.8112 | 0.5669 | 0.1011 | 0.8043 |
+| Bagging | 0.8200 | 0.5638 | 0.0881 | 0.8658 |
+| Random Forests | 0.8141 | 0.4976 | 0.0723 | 0.8539 |
+| Stacking (LDA+CART+Logistic) | 0.8166 | 0.5228 | 0.0780 | 0.861 |
+| 10-CV KNN | 0.7896 | 0.2787 | 0.0271 | 0.855 |
 
 
 
