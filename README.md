@@ -13,6 +13,11 @@ We initiated the data collection process by scraping the Wikipedia page for the 
 
 ## Model Summary
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 
 
 ## Project Structure 
