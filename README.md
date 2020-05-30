@@ -4,6 +4,10 @@ An End to End Machine Learning Project to Predict whether songs would land on th
 
 ### By: Chinmay Gharpure, Siddharth Kumaran, Arham Baid
 
+## Motivation 
+
+Often times, music producers invest in songs that don’t click with the audience and lead to major losses. These investment decisions are highly dependent on producers’ subjective opinions. The main goal of this project is to judge the quality of songs using quantitative metrics and help produce music in accordance with the audience’s tastes and preferences. The Billboard End of Year Hot 100 chart is one of the most notable representations of a song’s success. Using the Billboard charts as a metric of success, we want to help artists determine what technical music features of a song can they work on in order to produce a highly probable Billboard hit. We even broaden our scope of technical features to include lyrics which can help artists tweak their songs a little bit to better click with the audience. The applications of the project range from artists better understanding their audience to music producers generating higher return on investment for the music they produce.
+
 
 ## Project Structure 
 The folder contains three subfolders, which are labeled “data”, “feature engineering”, and “machine learning”. The significance of the files in each of the folders is listed below. 
