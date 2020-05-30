@@ -1,7 +1,11 @@
 # Billboard100
-An End to End Machine Learning Project to Predict the Billboard 100 Status of Songs
+
+An End to End Machine Learning Project to Predict whether songs would land on the Billboard Top 100 Charts using song data from Spotify and Billboard.
+
 ### By: Chinmay Gharpure, Siddharth Kumaran, Arham Baid
 
+
+## Project Structure 
 The folder contains three subfolders, which are labeled “data”, “feature engineering”, and “machine learning”. The significance of the files in each of the folders is listed below. 
 
 ### data:
