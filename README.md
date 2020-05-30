@@ -8,6 +8,12 @@ An End to End Machine Learning Project to Predict whether songs would land on th
 
 Often times, music producers invest in songs that don’t click with the audience and lead to major losses. These investment decisions are highly dependent on producers’ subjective opinions. The main goal of this project is to judge the quality of songs using quantitative metrics and help produce music in accordance with the audience’s tastes and preferences. The Billboard End of Year Hot 100 chart is one of the most notable representations of a song’s success. Using the Billboard charts as a metric of success, we want to help artists determine what technical music features of a song can they work on in order to produce a highly probable Billboard hit. We even broaden our scope of technical features to include lyrics which can help artists tweak their songs a little bit to better click with the audience. The applications of the project range from artists better understanding their audience to music producers generating higher return on investment for the music they produce.
 
+## Data Collection and EDA 
+We initiated the data collection process by scraping the Wikipedia page for the Top 100 charts from 1990 to 2018. Thereafter, we used a dataset of ~19000 Spotify songs from Kaggle to get a large sample of artists and song titles. This dataset was appended to the Billboard songs that we scraped from Wikipedia (removing all duplicates). In order to classify the hits and non-hits distinctly we classified a Billboard hit as 1 and a non-hit as 0. We then used Spotify’s API to get a multitude of a song’s technical audio features given the artist and song name. We looped through our dataset and added the features for songs that showed a match on both the artist name and song title and dropped the rest of the songs. Apart from that, we also collected the lyrics of every song using Musixmatch’s API. This was done to prepare the data for NLP analysis, which could potentially add more predictive power to our model. Multiple visualisations of our model like the one below in Fig 2a showed that the value of the features that classifies a song as a hit changes over time. We thereby segregated our dataset by decades.
+
+## Model Summary
+
+
 
 ## Project Structure 
 The folder contains three subfolders, which are labeled “data”, “feature engineering”, and “machine learning”. The significance of the files in each of the folders is listed below. 
