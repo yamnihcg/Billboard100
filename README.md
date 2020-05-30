@@ -11,9 +11,9 @@ Often times, music producers invest in songs that don’t click with the audienc
 ## Data Collection and EDA 
 We initiated the data collection process by scraping the Wikipedia page for the Top 100 charts from 1990 to 2018. Thereafter, we used a dataset of ~19000 Spotify songs from Kaggle to get a large sample of artists and song titles. This dataset was appended to the Billboard songs that we scraped from Wikipedia (removing all duplicates). In order to classify the hits and non-hits distinctly we classified a Billboard hit as 1 and a non-hit as 0. We then used Spotify’s API to get a multitude of a song’s technical audio features given the artist and song name. We looped through our dataset and added the features for songs that showed a match on both the artist name and song title and dropped the rest of the songs. Apart from that, we also collected the lyrics of every song using Musixmatch’s API. This was done to prepare the data for NLP analysis, which could potentially add more predictive power to our model. Multiple visualisations of our model like the one below in Fig 2a showed that the value of the features that classifies a song as a hit changes over time. We thereby segregated our dataset by decades.
 
-## Model Summary
+## Model Results Summary
 
-| First Header  | Second Header |
+| Model         | Accuracy      | TPR | FPR | AUC (if applicable)
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
