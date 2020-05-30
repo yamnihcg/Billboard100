@@ -4,7 +4,7 @@ An End to End Machine Learning Project to Predict the Billboard 100 Status of So
 
 The folder contains three subfolders, which are labeled “data”, “feature engineering”, and “machine learning”. The significance of the files in each of the folders is listed below. 
 
-“data”:
+### data:
 
 “billboard_top100.csv” - These are the Top 100 Billboard songs from 1990 to 2019 that we scraped from the Billboard website. 
 
@@ -15,7 +15,7 @@ The folder contains three subfolders, which are labeled “data”, “feature e
 “merged_data.csv” - CSV formed as a result of running data_cleaning.ipynb. 
 
 
-“feature engineering” :
+### feature engineering:
 
 “spotify_api_2.ipynb” - This is a Jupyter notebook that contains the code which retrieves Spotify song features and lyrics using the Spotify and MusixMatch API’s. 
 
@@ -28,7 +28,7 @@ The folder contains three subfolders, which are labeled “data”, “feature e
 “all_data_with_features_lyrics.csv “ - This is a .csv file with all of the Spotify data plus the lyrics of the songs. This is used later for NLP analysis in the machine learning section. 
 
 
-“machine learning” : 
+### machine learning: 
 
 “Datasets for Genre/Decade Submodels” - This contains all of the relevant datasets necessary for any of the machine learning models in the machine_learning folder.
 
